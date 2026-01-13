@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Neighborly Message</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 600px;
+            text-align: center;
+        }
+        h1 {
+            color: #d32f2f;
+            font-size: 28px;
+            line-height: 1.4;
+            margin-bottom: 30px;
+        }
+        .sweater {
+            font-size: 60px;
+            margin: 20px 0;
+        }
+        p {
+            color: #555;
+            font-size: 18px;
+            font-style: italic;
+            margin: 20px 0;
+        }
+        audio {
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sweater">🧶</div>
+        <h1>Mr. Rogers did not adequately prepare me for the people in my neighborhood</h1>
+        <p>"Won't you be my neighbor?" - Fred Rogers</p>
+        <audio controls autoplay loop>
+            <source src="https://www.misterrogers.org/media/audio/wont-you-be-my-neighbor.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <p style="font-size: 14px; margin-top: 30px; color: #888;">
+            It's a beautiful day in <em>this</em> neighborhood... apparently.
+        </p>
+    </div>
+</body>
+</html>
